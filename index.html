@@ -12,6 +12,7 @@
 }
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 p {
@@ -29,6 +30,8 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  margin: 15px;
+  padding: 5px;
 }
 
 /********** Desktop devices only **********/
@@ -118,6 +121,22 @@ p {
     width: 100%;
   }
 }
+.titlechick{
+  background-color: darkred;
+  border: 1px;
+}
+
+.titlebeef {
+  background-color: red;
+  border: 1px;
+}
+
+.titlesushi {
+  background-color: yellow;
+  border: 1px;
+
+}
+
 
 
 </style>
@@ -126,9 +145,9 @@ p {
 <h1>lorem ipsum</h1>
 
 <div class="row">
-  <section class="col-lg-3 col-md-4"><p>Item 1</p></section>
-  <section class="col-lg-3 col-md-4"><p>Item 2</p></section>
-  <section class="col-lg-3 col-md-4"><p>Item 3</p></section>
+  <section class="col-lg-3 col-md-4"><title class="titlechick">Chicken</title><p>Item 1</p></section>
+  <section class="col-lg-3 col-md-4"><title class="titlebeef">Beef</title><p>Item 2</p></section>
+  <section class="col-lg-3 col-md-4"><title class="titlesushi">Sushi</title><p>Item 3</p></section>
 </div>
 
 </body>
