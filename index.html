@@ -13,6 +13,9 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-family: Tahoma sans-serif; 
+  font-size: 75%;
+  border: 1px black;
 }
 
 p {
@@ -26,13 +29,6 @@ p {
   color: white;
 }
 
-h1 {
-  font-family: Tahoma sans-serif; 
-  font-size: 75%;
-  border: 1px black;
-}
-
-}
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -128,7 +124,9 @@ h1 {
   }
 }
 
-
+#chicken {
+  background-color: yellow;
+}
 
 
 </style>
@@ -136,15 +134,15 @@ h1 {
 <body>
 <h1>Module 2 Assignment</h1>
 
-  <section class="col-lg-3 col-md-4">
+  <section class="col-lg-3 col-md-4 row" id="chicken">
     <h1>Chicken</h1>
     <p></p>
   </section>
-  <section class="col-lg-3 col-md-4">
-    <n1>Beef</h1>
-    <p><</p>
+  <section class="col-lg-3 col-md-4 row" id="beef">
+    <h1>Beef</h1>
+    <p></p>
   </section>
-  <section class="col-lg-3 col-md-4">
+  <section class="col-lg-3 col-md-4 row" id="sushi">
     <h1>Sushi</h1>
     <p></p>
   </section>
