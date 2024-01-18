@@ -14,6 +14,7 @@
 section {
 border: solid black 1px;
 }
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
@@ -121,6 +122,18 @@ p {
   }
 }
 
+#chicken {
+  background-color: darkred;
+}
+
+#beef {
+  background-color: orangered;
+}
+
+#sushi {
+  background-color: yellow;
+}
+
 </style>
 </head>
 <body>
@@ -128,17 +141,17 @@ p {
 
 <div class="row">
   <div class="col-lg-4 col-md-3">
-    <section>
+    <section id="chicken" name="chicken">
       <p>Chicken</p>
     </section>
   </div>
   <div class="col-lg-4 col-md-3">
-    <section>
+    <section id="beef" name="beef">
       <p>Beef</p>
     </section>
   </div>
   <div class="col-lg-4 col-md-3">
-    <section>
+    <section id="sushi" name="sushi">
       <p>Sushi</p>
     </section>
   </div>
