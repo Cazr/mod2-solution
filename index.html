@@ -11,8 +11,18 @@
   box-sizing: border-box;
 }
 
+body, h1, h1, p {
+  margin: 0;
+  padding 0;
+}
+
+body {
+  font-family: Arial sans-serif;
+  background-color: #f0f0f0;
+}
 section {
 border: solid black 1px;
+position: relative;
 }
 
 h1 {
@@ -27,6 +37,16 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: white;
+}
+
+.section h2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  margin 0;
 }
 
 /* Simple Responsive Framework. */
@@ -120,17 +140,6 @@ p {
   }
 }
 
-#chicken {
-  background-color: darkred;
-}
-
-#beef {
-  background-color: orangered;
-}
-
-#sushi {
-  background-color: yellow;
-}
 
 </style>
 </head>
@@ -139,18 +148,21 @@ p {
 
 <div class="row">
   <div class="col-lg-4 col-md-3">
-    <section id="chicken" name="chicken">
-      <p>Chicken</p>
+    <section class="section">
+      <h2>Chicken</h2>
+      <p>Loren ipsum dolor sit amet</p>
     </section>
   </div>
   <div class="col-lg-4 col-md-3">
-    <section id="beef" name="beef">
-      <p>Beef</p>
+    <section class="section">
+      <h2>Beef</h2>
+       <p>Loren ipsum dolor sit amet</p>
     </section>
   </div>
   <div class="col-lg-4 col-md-3">
-    <section id="sushi" name="sushi">
-      <p>Sushi</p>
+    <section class="section">
+      <h2>Sushi</h2>
+      <p>Loren ipsum dolor sit amet</p>
     </section>
   </div>
 </div>
