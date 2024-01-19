@@ -9,6 +9,8 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  margin: 5px;
+  padding 5px;
 }
 
 
@@ -19,6 +21,8 @@ body {
 section {
 border: solid black 1px;
 position: relative;
+margin: 5px;
+padding: 5px;
 }
 
 h1 {
@@ -32,7 +36,8 @@ p {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  color: #333;
+  position: relative;
 }
 
 .section h2 {
@@ -43,6 +48,10 @@ p {
   color: #fff;
   padding: 5px 10px;
   margin 0;
+}
+
+.sectiontitle {
+
 }
 
 /* Simple Responsive Framework. */
@@ -145,19 +154,25 @@ p {
 <div class="row">
   <div class="col-lg-4 col-md-3">
     <section class="section">
+      <div class="sectiontitle" id="Chicken">
       <h2>Chicken</h2>
+    </div>
       <p>Loren ipsum dolor sit amet</p>
     </section>
   </div>
   <div class="col-lg-4 col-md-3">
     <section class="section">
+      <div class="sectiontitle" id="beef">
       <h2>Beef</h2>
+    </div>
        <p>Loren ipsum dolor sit amet</p>
     </section>
   </div>
   <div class="col-lg-4 col-md-3">
     <section class="section">
+      <div class="sectiontitle" id="sushi">
       <h2>Sushi</h2>
+    </div>
       <p>Loren ipsum dolor sit amet</p>
     </section>
   </div>
